@@ -1,0 +1,34 @@
+
+anatawa12/auto-visitor:
+  deployment:
+    props:
+      - ACTIONS_PAT
+      - GPG_PRIVATE_KEY
+      - GPG_PRIVATE_PASS
+      - SONATYPE_USER
+      - SONATYPE_PASS
+      - GRADLE_KEY
+      - GRADLE_SECRET
+      - INTELLIJ_TOKEN
+
+anatawa12/compile-time-constant:
+  deployment:
+    props:
+      - ACTIONS_PAT
+      - GPG_PRIVATE_KEY
+      - GPG_PRIVATE_PASS
+      - GRADLE_KEY
+      - GRADLE_SECRET
+      - SONATYPE_PASS
+      - SONATYPE_USER
+
+anatawa12/mod-patching:
+  deployment:
+    props:
+      - ACTIONS_PAT
+      - GPG_PRIVATE_KEY
+      - GPG_PRIVATE_PASS
+      - GRADLE_KEY
+      - GRADLE_SECRET
+      - SONATYPE_PASS
+      - SONATYPE_USER
