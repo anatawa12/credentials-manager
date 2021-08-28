@@ -79,7 +79,7 @@ async fn get_secrets_or_make_environment(
     })
     .await
     {
-        Err(ref e) if matches!(e.status(), Some(StatusCode::OK)) => {
+        Err(ref e) if matches!(e.status(), Some(StatusCode::NOT_FOUND)) => {
             make_environment(client, repo, env).await?;
             return Ok(HashSet::new());
         }
