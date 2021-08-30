@@ -39,7 +39,7 @@ anatawa12/discord-rcon:
       - ACTIONS_PAT
       - CRATES_IO_TOKEN
 
-anatawa12/plugin-permissions-for-ngt:
+fixrtm/plugin-permissions-for-ngt:
   deployment:
     props:
       - ACTIONS_PAT
