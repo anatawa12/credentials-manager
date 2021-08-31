@@ -1,4 +1,15 @@
 
+anatawa12/auto-tostring:
+  deployment:
+    props:
+      - ACTIONS_PAT
+      - GPG_PRIVATE_KEY
+      - GPG_PRIVATE_PASS
+      - SONATYPE_USER
+      - SONATYPE_PASS
+      - GRADLE_KEY
+      - GRADLE_SECRET
+
 anatawa12/auto-visitor:
   deployment:
     props:
