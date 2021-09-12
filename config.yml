@@ -44,6 +44,12 @@ anatawa12/mod-patching:
       - SONATYPE_PASS
       - SONATYPE_USER
 
+anatawa12/zip-http-server:
+  deployment:
+    props:
+      - ACTIONS_PAT
+      - CRATES_IO_TOKEN
+
 anatawa12/discord-rcon:
   deployment:
     props:
