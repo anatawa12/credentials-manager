@@ -33,7 +33,7 @@ anatawa12/compile-time-constant:
       - SONATYPE_PASS
       - SONATYPE_USER
 
-anatawa12/mod-patching:
+fixrtm/mod-patching:
   deployment:
     props:
       - ACTIONS_PAT
