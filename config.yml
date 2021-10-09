@@ -33,6 +33,17 @@ anatawa12/compile-time-constant:
       - SONATYPE_PASS
       - SONATYPE_USER
 
+fixrtm/jar-in-jar-mod:
+  deployment:
+    props:
+      - ACTIONS_PAT
+      - GPG_PRIVATE_KEY
+      - GPG_PRIVATE_PASS
+      - GRADLE_KEY
+      - GRADLE_SECRET
+      - SONATYPE_PASS
+      - SONATYPE_USER
+
 fixrtm/mod-patching:
   deployment:
     props:
