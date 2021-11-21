@@ -71,3 +71,12 @@ fixrtm/plugin-permissions-for-ngt:
   deployment:
     props:
       - ACTIONS_PAT
+
+anatawa12/ForgeGradle-1.2:
+  deployment:
+    props:
+      - ACTIONS_PAT
+      - GPG_PRIVATE_KEY
+      - GPG_PRIVATE_PASS
+      - SONATYPE_PASS
+      - SONATYPE_USER
