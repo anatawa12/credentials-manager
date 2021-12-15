@@ -33,6 +33,11 @@ anatawa12/compile-time-constant:
       - SONATYPE_PASS
       - SONATYPE_USER
 
+anatawa12/github-features-test:
+  deployment:
+    props:
+      - ACTIONS_PAT
+
 fixrtm/jar-in-jar-mod:
   deployment:
     props:
