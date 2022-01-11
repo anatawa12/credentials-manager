@@ -49,6 +49,11 @@ fixrtm/jar-in-jar-mod:
       - SONATYPE_PASS
       - SONATYPE_USER
 
+anatawa12/mod-downloader:
+  deployment:
+    props:
+      - ACTIONS_PAT
+
 fixrtm/mod-patching:
   deployment:
     props:
