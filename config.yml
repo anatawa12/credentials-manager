@@ -33,6 +33,13 @@ anatawa12/compile-time-constant:
       - SONATYPE_PASS
       - SONATYPE_USER
 
+anatawa12/game-save-backuper:
+  deployment:
+    props:
+      - ACTIONS_PAT
+      - CRATES_IO_TOKEN
+
+
 anatawa12/github-features-test:
   deployment:
     props:
