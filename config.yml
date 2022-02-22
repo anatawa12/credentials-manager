@@ -1,3 +1,7 @@
+freedom-mod-development-community/asta-all-config-syncer:
+  deployment:
+    props:
+      - ACTIONS_PAT
 
 anatawa12/auto-tostring:
   deployment:
