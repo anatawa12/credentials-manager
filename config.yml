@@ -101,3 +101,12 @@ anatawa12/ForgeGradle-1.2:
       - GPG_PRIVATE_PASS
       - SONATYPE_PASS
       - SONATYPE_USER
+
+anatawa12/ForgeGradle-2.3:
+  deployment:
+    props:
+      - ACTIONS_PAT
+      - GPG_PRIVATE_KEY
+      - GPG_PRIVATE_PASS
+      - SONATYPE_PASS
+      - SONATYPE_USER
