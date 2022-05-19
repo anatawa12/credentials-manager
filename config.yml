@@ -76,6 +76,11 @@ fixrtm/mod-patching:
       - SONATYPE_PASS
       - SONATYPE_USER
 
+anatawa12/something-releaser:
+  deployment:
+    props:
+      - ACTIONS_PAT
+
 anatawa12/zip-http-server:
   deployment:
     props:
