@@ -37,6 +37,11 @@ anatawa12/compile-time-constant:
       - SONATYPE_PASS
       - SONATYPE_USER
 
+anatawa12/CustomLocalization4EditorExtension:
+  deployment:
+    props:
+      - ACTIONS_PAT
+
 anatawa12/game-save-backuper:
   deployment:
     props:
