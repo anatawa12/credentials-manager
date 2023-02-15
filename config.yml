@@ -120,3 +120,12 @@ anatawa12/ForgeGradle-2.3:
       - GPG_PRIVATE_PASS
       - SONATYPE_PASS
       - SONATYPE_USER
+
+anatawa12/SpecialSource:
+  deployment:
+    props:
+      # - ACTIONS_PAT we use Fine-grained personal access tokens
+      - GPG_PRIVATE_KEY
+      - GPG_PRIVATE_PASS
+      - SONATYPE_USER
+      - SONATYPE_PASS
