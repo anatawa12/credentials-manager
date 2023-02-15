@@ -123,6 +123,7 @@ anatawa12/ForgeGradle-2.3:
 
 anatawa12/SpecialSource:
   deployment:
+    additional: true
     props:
       # - ACTIONS_PAT we use Fine-grained personal access tokens
       - GPG_PRIVATE_KEY
